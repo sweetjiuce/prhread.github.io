@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+
 ## Welcome to GitHub Pages
 ### namespace 详解
 namespace 中文解释为命名空间
@@ -23,3 +23,10 @@ int main()
        printf("i:%d    奇偶性:%s /n", i, dbtest(i));    
    }
 }
+
+### 虚函数
+
+定义一个函数为虚函数  不代表该函数不被实现 只是为了能用基类的指针调用子类的这个函数（没理解）
+定义一个纯虚函数 才代表这个函数没有被实现 定义纯虚函数是为了实现一个规范化的接口 规范继承这个类的程序员必须实现这个函数。
+
+
